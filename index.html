@@ -66,13 +66,13 @@
         }
 
         function getMsg() {
-            $.get('http://localhost:5000/msgs', (data) => {
+            $.get('https://young-meadow-32361.herokuapp.com/msgs', (data) => {
                 data.forEach(addMsg);
             })
         }
 
         function postMsg(message) {
-            $.post('http://localhost:5000/msgs', message)
+            $.post('https://young-meadow-32361.herokuapp.com/msgs', message)
         }
 
     </script>
