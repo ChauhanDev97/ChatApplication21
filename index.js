@@ -10,7 +10,7 @@ app.use(express.static(__dirname));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }))
 
-var dbUrl = "mongodb+srv://Fury:Chauhan%40123@chatapplication.q04mz.mongodb.net/test"
+var dbUrl = "mongodb+srv://Fury:<Password>@chatapplication.q04mz.mongodb.net/test"
 
 var Message = mongoose.model('Message', {
     name: String,
